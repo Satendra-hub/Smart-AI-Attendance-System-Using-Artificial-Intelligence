@@ -12,7 +12,7 @@ def style_background_home():
                 }
 
                 .stApp div[data-testid="stColumn"]{
-                    background-color:#E0E3FF !important;
+                    background-color:#000000!important;
                     padding:2.5rem !important;
                     border-radius: 5rem !important;
                     }
@@ -28,7 +28,7 @@ def style_background_dashboard():
         <style>
 
                 .stApp {
-                    background: #E0E3FF !important;
+                    background: #98a0eb !important;
                 }
 
         </style>  
@@ -43,7 +43,7 @@ def style_base_layout():
 # asdasd
     st.markdown("""
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
                 
@@ -69,6 +69,7 @@ def style_base_layout():
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 2rem !important;
                 line-height:0.9 !important;
+                color: #FFFF00 !important;
                 margin-bottom:0rem !important;
             }
                 
